@@ -9,3 +9,7 @@ Both publisher dan subscriber memanggil ke server AMQP yang sama. Keduanya berko
 
 ## Running RabbitMQ
 ![Running RabbitMQ](image.png)
+
+## Sending and Processing Event
+![rocessing Event](image-1.png)
+Terminal pertama adalah menjalankan message broker yaitu RabbitMQ. Terminal kedua dan ketiga adalah menjalankan subscriber dan publisher dengan `cargo run`. Publisher yang berjalan akan mengirimkan data ke message broker lalu subscriber menerima data tersebut. Hal ini terlihat pada gambar.
