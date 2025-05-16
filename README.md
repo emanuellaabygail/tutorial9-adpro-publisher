@@ -6,3 +6,6 @@
 
 ## The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?
 Both publisher dan subscriber memanggil ke server AMQP yang sama. Keduanya berkomunikasi dengan message broker yang sama sehingga pesam yang dikirim publisher akan diterima oleh subscriber melalui server AMQP tersebut.
+
+## Running RabbitMQ
+![Running RabbitMQ](image.png)
